@@ -1,3 +1,4 @@
+//feet-mile converter
 function feetToMile(number)
 {
     var result1 = number/5280;
@@ -9,6 +10,8 @@ if(result>0){
 }
 else console.log("Length can't be negative. Enter value again.");
 
+
+//wood calculator
 function woodCalculator(chair,table,bed){
     var requiredWoodForChair = chair*1;
     var requiredWoodForTable = table*3;
@@ -19,6 +22,8 @@ function woodCalculator(chair,table,bed){
 var totalWood = woodCalculator(2,2,2);
 console.log("Required wood :" , totalWood , " cubic feet");
 
+
+//brick calculator
 function brickCalculator(floor){
     var i=1;
     var j=1;
@@ -71,6 +76,8 @@ function brickCalculator(floor){
 var requiredBrickAmount = brickCalculator(100);
 console.log("Required bricks :" , requiredBrickAmount);
 
+
+//finding the tiny friend
 function tinyFriend(friends){
     var tiny = friends[0].length;
     var tinyName = friends[0];
